@@ -26,6 +26,7 @@ public class cli {
 				umaMensagem.setMensagemAcao(teclado.nextLine(),
 						Acao.NOVA_MENSAGEM);
 				saida.writeObject(umaMensagem);
+				saida.flush();
 			}
 		}
 

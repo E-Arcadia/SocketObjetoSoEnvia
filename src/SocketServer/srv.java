@@ -21,6 +21,7 @@ public class srv {
 
 		//Recebe objetos do cliente
 		ObjectInputStream entrada = new ObjectInputStream(cliente.getInputStream());
+		
 		while ((aMensagem = (ObjetoMensagem) entrada.readObject()) != null) {
 			System.out.println(aMensagem.toString());
 		}
