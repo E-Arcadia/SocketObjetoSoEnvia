@@ -90,6 +90,6 @@ public class ObjetoMensagem implements Serializable {
 
 
 	public enum Acao {
-		CONECTADO, DESCONECTADO, NOVA_MENSAGEM
+		CONECTADO, DESCONECTAR, NOVA_MENSAGEM
 	}
 }
